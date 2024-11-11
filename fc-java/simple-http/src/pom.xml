@@ -19,11 +19,21 @@
       <artifactId>vefaas-java8-sdk</artifactId>
       <version>v1</version>
     </dependency> -->
-            <dependency>
+            <!-- <dependency>
             <groupId>org.eclipse.jetty.http2</groupId>
             <artifactId>http2-server</artifactId>
             <version>9.4.46.v20220331</version>
-        </dependency>
+        </dependency> -->
+    <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-server</artifactId>
+        <version>9.4.46.v20220331</version>
+    </dependency>
+    <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-servlet</artifactId>
+        <version>9.4.46.v20220331</version>
+    </dependency>
     <dependency>
       <groupId>com.aliyun.fc.runtime</groupId>
       <artifactId>fc-java-core</artifactId>
@@ -40,6 +50,48 @@
       <version>1.18.30</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+    <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.3.31</version>
+    </dependency>
+    <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+      <version>5.3.31</version>
+    </dependency>
+    <!-- Spring MVC -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>5.3.31</version>
+</dependency>
+
+<!-- Jetty Server -->
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-server</artifactId>
+    <version>9.4.53.v20231009</version>
+</dependency>
+
+<!-- Jetty Servlet -->
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-servlet</artifactId>
+    <version>9.4.53.v20231009</version>
+</dependency>
+
+<!-- Jetty Webapp Support -->
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-webapp</artifactId>
+      <version>9.4.53.v20231009</version>
+    </dependency>
+
+    <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter</artifactId>
+</dependency>
   </dependencies>
 
   <build>
